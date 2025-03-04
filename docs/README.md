@@ -8,9 +8,9 @@ EchoArt is an innovative iOS application that transforms voice into digital art,
 [![SwiftUI](https://img.shields.io/badge/SwiftUI-iOS_18-blue.svg)](https://developer.apple.com/xcode/swiftui/)
 [![Swift Student Challenge](https://img.shields.io/badge/Swift_Student_Challenge-2025-red.svg)](https://developer.apple.com/swift-student-challenge/)
 
-English | [日本語](README-ja.md)
+English | [日本語](docs/README-ja.md)
 
-![EchoArt Demo](https://raw.githubusercontent.com/HIROMU522/EchoArt/main/Resources/demo.png)
+![EchoArt Demo](docs/images/demo.png)
 
 ## 📱 App Overview
 
@@ -27,15 +27,15 @@ EchoArt analyzes your voice in real-time and transforms it into visual art with 
 ## 🚀 Features & Screenshots
 
 ### Voice Drawing Canvas
-![Canvas View](https://raw.githubusercontent.com/HIROMU522/EchoArt/main/Resources/canvas.png)
+![Canvas View](docs/images/canvas.png)
 The main canvas where voice is transformed into visual art in real-time.
 
 ### Dynamic Gallery
-![Gallery View](https://raw.githubusercontent.com/HIROMU522/EchoArt/main/Resources/gallery.png)
+![Gallery View](docs/images/gallery.png)
 Browse through created artworks with an immersive 3D carousel interface.
 
 ### Voice Personalization
-![Personalization View](https://raw.githubusercontent.com/HIROMU522/EchoArt/main/Resources/personalization.png)
+![Personalization View](docs/images/personalization.png)
 Customize the app to your unique vocal characteristics and environment.
 
 ## 🧩 Architecture & Technical Details
@@ -110,7 +110,7 @@ EchoArt/
    
    - **Memory Management**: Using Swift's pointer-based APIs for buffer handling to ensure optimal performance during real-time processing, avoiding unnecessary memory copies.
 
-   [FFT Implementation Equations](https://github.com/HIROMU522/EchoArt/blob/main/docs/Resourses/equations-fft.md)
+   ![FFT Implementation Equations](docs/images/fft_equations.png)
 
 3. **Audio-Visual Mapping**:
 
@@ -124,9 +124,9 @@ EchoArt/
    
    - **Position Mapping**: Y-position on canvas is determined by pitch, while X-position is influenced by volume, creating a natural 2D expression space where users can intuitively understand the relationship between their voice and the resulting visuals.
 
-   [FFT Implementation Equations](https://github.com/HIROMU522/EchoArt/blob/main/Resources/mapping_equations.md)
+   ![Mapping Equations](docs/images/mapping_equations.png)
 
-3. **Personalization System**:
+4. **Personalization System**:
 
    **Personalization Design Rationale**:
    
@@ -143,7 +143,7 @@ EchoArt/
    
    - **Persistence**: Calibration values are stored in UserDefaults, allowing the app to remember each user's vocal profile between sessions
 
-   [FFT Implementation Equations](https://github.com/HIROMU522/EchoArt/blob/main/Resources/personalization_algorithms.md)
+   ![Personalization Algorithms](docs/images/personalization_algorithms.png)
 
 5. **Audio-Visual Synchronization**:
 
@@ -159,7 +159,7 @@ EchoArt/
    
    - **SwiftData Integration**: Combined audio data is stored alongside vector drawing data in a unified SwiftData model, ensuring artwork and audio remain paired throughout the app lifecycle
 
-   [FFT Implementation Equations](https://github.com/HIROMU522/EchoArt/blob/main/Resources/audio_sync_diagram.md)
+   ![Audio Synchronization Diagram](docs/images/audio_sync_diagram.png)
 
 ## 💡 Inspiration & Purpose
 
