@@ -186,6 +186,6 @@ Copyright © 2025 Hiromu Tanaka. All rights reserved.
 ## 📫 連絡先
 
 お問い合わせやフィードバックはこちらまで：
-- Email: [your-email@example.com](mailto:your-email@example.com)
+- Email: [ hiromureve1522@icloud.com](mailto:hiromureve1522@icloud.com)
 - GitHub: [@HIROMU522](https://github.com/HIROMU522)
-- LinkedIn: [Your LinkedIn Profile](https://linkedin.com/in/yourprofile)
+- LinkedIn: [Hiromu Tanaka](https://www.linkedin.com/in/hiromu-tanaka-15958b2a6/)
