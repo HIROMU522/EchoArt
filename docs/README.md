@@ -165,21 +165,10 @@ EchoArt was inspired by the Japanese word "声色" (kowairo), which combines "vo
 
 The app is designed to be inclusive, offering an alternative creative medium for people with physical limitations that may make traditional drawing challenging. It also creates a unique way for people with speech differences to visualize their voices in vibrant colors, potentially fostering confidence and new forms of self-expression.
 
-## 🔭 Future Developments
-
-- Collaborative drawing features to enable multiple users to create art together
-- Cloud synchronization for sharing creations across devices
-- Enhanced audio processing for more nuanced visual representations
-- Machine learning integration to develop personalized drawing styles
-- Cross-platform support for wider accessibility
-
 ## 🧑‍💻 Development & Contribution
 
-EchoArt was developed as part of the Swift Student Challenge 2025 submission. The app demonstrates the integration of audio processing, visual rendering, and personalized user experience in a creative iOS application.
+EchoArt was developed as part of the Swift Student Challenge 2025 submission(submitted). The app demonstrates the integration of audio processing, visual rendering, and personalized user experience in a creative iOS application.
 
-## 📝 License
-
-Copyright © 2025 Hiromu Tanaka. All rights reserved.
 
 ## 📫 Contact
 
