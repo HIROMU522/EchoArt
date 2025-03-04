@@ -96,7 +96,7 @@ EchoArt/
    
    - **Memory Management**: Using Swift's pointer-based APIs for buffer handling to ensure optimal performance during real-time processing, avoiding unnecessary memory copies.
 
-   ![FFT Implementation Equations](https://raw.githubusercontent.com/HIROMU522/EchoArt/main/Resources/fft_equations.png)
+   ![FFT Implementation Equations](https://raw.githubusercontent.com/HIROMU522/EchoArt/main/Resources/fft_equations.md)
 
 3. **Audio-Visual Mapping**:
 
