@@ -10,8 +10,6 @@ EchoArt is an innovative iOS application that transforms voice into digital art,
 
 English | [日本語](README-ja.md)
 
-![EchoArt Demo](docs/img/demo.png)
-
 ## 📱 App Overview
 
 EchoArt analyzes your voice in real-time and transforms it into visual art with the following features:
