@@ -8,7 +8,7 @@ EchoArt is an innovative iOS application that transforms voice into digital art,
 [![SwiftUI](https://img.shields.io/badge/SwiftUI-iOS_18-blue.svg)](https://developer.apple.com/xcode/swiftui/)
 [![Swift Student Challenge](https://img.shields.io/badge/Swift_Student_Challenge-2025-red.svg)](https://developer.apple.com/swift-student-challenge/)
 
-English | [日本語](docs/README-ja.md)
+English | [日本語](README-ja.md)
 
 ![EchoArt Demo](docs/images/demo.png)
 
