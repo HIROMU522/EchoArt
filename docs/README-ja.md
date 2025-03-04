@@ -24,6 +24,20 @@ EchoArtはリアルタイムで声を分析し、以下の特徴を活かして�
 - **ダイナミックなギャラリー**: 作品を閲覧し、各作品を形作った音声を再生できます
 - **パーソナライズされた声のキャリブレーション**: アプリをあなたの声の範囲と環境に合わせてカスタマイズできます
 
+## 🚀 特徴とスクリーンショット
+
+### 声描画キャンバス
+![キャンバスビュー](https://raw.githubusercontent.com/HIROMU522/EchoArt/main/Resources/canvas.png)
+声がリアルタイムで視覚的アートに変換されるメインキャンバス。
+
+### ダイナミックギャラリー
+![ギャラリービュー](https://raw.githubusercontent.com/HIROMU522/EchoArt/main/Resources/gallery.png)
+没入感のある3Dカルーセルインターフェースで作成されたアートワークを閲覧。
+
+### 声のパーソナライゼーション
+![パーソナライゼーションビュー](https://raw.githubusercontent.com/HIROMU522/EchoArt/main/Resources/personalization.png)
+アプリをあなた独自の声の特性と環境に合わせてカスタマイズ。
+
 ## 🧩 アーキテクチャと技術詳細
 
 EchoArtは、関心事の明確な分離のためにMVVM（Model-View-ViewModel）アーキテクチャパターンを採用しています：
@@ -146,20 +160,6 @@ EchoArtは、音声入力をリアルタイムで視覚的アートに変換す�
    - **永続性**: キャリブレーション値はUserDefaultsに保存され、アプリが各ユーザーの声のプロファイルをセッション間で記憶できるようにします
 
    ![パーソナライゼーションアルゴリズム](https://raw.githubusercontent.com/HIROMU522/EchoArt/main/Resources/personalization_algorithms.png)
-
-## 🚀 特徴とスクリーンショット
-
-### 声描画キャンバス
-![キャンバスビュー](https://raw.githubusercontent.com/HIROMU522/EchoArt/main/Resources/canvas.png)
-声がリアルタイムで視覚的アートに変換されるメインキャンバス。
-
-### ダイナミックギャラリー
-![ギャラリービュー](https://raw.githubusercontent.com/HIROMU522/EchoArt/main/Resources/gallery.png)
-没入感のある3Dカルーセルインターフェースで作成されたアートワークを閲覧。
-
-### 声のパーソナライゼーション
-![パーソナライゼーションビュー](https://raw.githubusercontent.com/HIROMU522/EchoArt/main/Resources/personalization.png)
-アプリをあなた独自の声の特性と環境に合わせてカスタマイズ。
 
 ## 💡 インスピレーションと目的
 
