@@ -43,13 +43,13 @@ Customize the app to your unique vocal characteristics and environment.
 EchoArt employs an advanced signal processing pipeline to transform voice input into visual art in real-time. The diagram below illustrates the core technical workflow:
 
 ```
-┌─────────────────┐    ┌────────────────-─┐    ┌─────────────────┐
+┌─────────────────┐    ┌──────────────────┐    ┌─────────────────┐
 │  Audio Capture  │    │ Signal Analysis  │    │ Visual Mapping  │
 │                 │───▶│                  │───▶│                 │
 │ - AVFoundation  │    │ - FFT Processing │    │ - Pitch to Color│
 │ - Buffer Size:  │    │ - Hann Windowing │    │ - Volume to     │
 │   1024 samples  │    │ - Peak Detection │    │   Width & X-Pos │
-└─────────────────┘    └─────────────────-┘    └─────────────────┘
+└─────────────────┘    └──────────────────┘    └─────────────────┘
                                                        │
                                                        ▼
 ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
