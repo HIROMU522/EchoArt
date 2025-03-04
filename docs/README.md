@@ -27,7 +27,7 @@ EchoArt analyzes your voice in real-time and transforms it into visual art with 
 ## 🚀 Features & Screenshots
 
 ### Voice Drawing Canvas
-![Canvas View](docs/img/canvas.png)
+![Canvas View](Resourses/img/canvas.png)
 The main canvas where voice is transformed into visual art in real-time.
 
 ### Dynamic Gallery
