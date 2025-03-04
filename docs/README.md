@@ -96,7 +96,7 @@ EchoArt/
    
    - **Memory Management**: Using Swift's pointer-based APIs for buffer handling to ensure optimal performance during real-time processing, avoiding unnecessary memory copies.
 
-   ![FFT Implementation Equations](https://raw.githubusercontent.com/HIROMU522/EchoArt/main/Resources/fft_equations.md)
+   [FFT Implementation Equations](https://github.com/HIROMU522/EchoArt/blob/main/Resources/fft_equations.md)
 
 3. **Audio-Visual Mapping**:
 
@@ -110,7 +110,7 @@ EchoArt/
    
    - **Position Mapping**: Y-position on canvas is determined by pitch, while X-position is influenced by volume, creating a natural 2D expression space where users can intuitively understand the relationship between their voice and the resulting visuals.
 
-   ![Audio-Visual Mapping Equations](https://raw.githubusercontent.com/HIROMU522/EchoArt/main/Resources/mapping_equations.png)
+   [FFT Implementation Equations](https://github.com/HIROMU522/EchoArt/blob/main/Resources/mapping_equations.md)
 
 3. **Personalization System**:
 
@@ -129,9 +129,9 @@ EchoArt/
    
    - **Persistence**: Calibration values are stored in UserDefaults, allowing the app to remember each user's vocal profile between sessions
 
-   ![Personalization Algorithms](https://raw.githubusercontent.com/HIROMU522/EchoArt/main/Resources/personalization_algorithms.png)
+   [FFT Implementation Equations](https://github.com/HIROMU522/EchoArt/blob/main/Resources/personalization_algorithms.md)
 
-4. **Audio-Visual Synchronization**:
+5. **Audio-Visual Synchronization**:
 
    **Synchronization Implementation Strategy**:
    
@@ -145,7 +145,7 @@ EchoArt/
    
    - **SwiftData Integration**: Combined audio data is stored alongside vector drawing data in a unified SwiftData model, ensuring artwork and audio remain paired throughout the app lifecycle
 
-   ![Audio Synchronization Diagram](https://raw.githubusercontent.com/HIROMU522/EchoArt/main/Resources/audio_sync_diagram.png)
+   [FFT Implementation Equations](https://github.com/HIROMU522/EchoArt/blob/main/Resources/audio_sync_diagram.md)
 
 ## 🚀 Features & Screenshots
 
