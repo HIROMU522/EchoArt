@@ -110,7 +110,7 @@ EchoArt/
    
    - **Memory Management**: Using Swift's pointer-based APIs for buffer handling to ensure optimal performance during real-time processing, avoiding unnecessary memory copies.
 
-   [View FFT Implementation Details](en/equations-fft.md)
+   [View FFT Implementation Details](Resourses/en/equations-fft.md)
 
 3. **Audio-Visual Mapping**:
 
@@ -124,7 +124,7 @@ EchoArt/
    
    - **Position Mapping**: Y-position on canvas is determined by pitch, while X-position is influenced by volume, creating a natural 2D expression space where users can intuitively understand the relationship between their voice and the resulting visuals.
 
-   [View FFT Implementation Details](en/mapping_equations.md)
+   [View FFT Implementation Details](Resourses/en/mapping_equations.md)
 
 5. **Personalization System**:
 
@@ -143,7 +143,7 @@ EchoArt/
    
    - **Persistence**: Calibration values are stored in UserDefaults, allowing the app to remember each user's vocal profile between sessions
 
-   [View FFT Implementation Details](en/personalization_algorithms.md)
+   [View FFT Implementation Details](Resourses/en/personalization_algorithms.md)
 
 7. **Audio-Visual Synchronization**:
 
@@ -159,7 +159,7 @@ EchoArt/
    
    - **SwiftData Integration**: Combined audio data is stored alongside vector drawing data in a unified SwiftData model, ensuring artwork and audio remain paired throughout the app lifecycle
 
-   [View FFT Implementation Details](en/audio_sync_diagram.md)
+   [View FFT Implementation Details](Resourses/en/audio_sync_diagram.md)
 
 ## 💡 Inspiration & Purpose
 
