@@ -27,15 +27,15 @@ EchoArt analyzes your voice in real-time and transforms it into visual art with 
 ## 🚀 Features & Screenshots
 
 ### Voice Drawing Canvas
-![Canvas View](Resourses/img/canvas.png)
+<img src="Resourses/img/canvas.png" alt="Canvas View" width="70%">
 The main canvas where voice is transformed into visual art in real-time.
 
 ### Dynamic Gallery
-![Gallery View](docs/img/gallery.png)
+<img src="Resourses/img/gallery.png" alt="Gallery View" width="70%">
 Browse through created artworks with an immersive 3D carousel interface.
 
 ### Voice Personalization
-![Personalization View](docs/img/personalization.png)
+<img src="Resourses/img/personalization.png" alt="Personalization View" width="70%">
 Customize the app to your unique vocal characteristics and environment.
 
 ## 🧩 Architecture & Technical Details
