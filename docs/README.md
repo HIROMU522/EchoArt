@@ -24,18 +24,32 @@ EchoArt analyzes your voice in real-time and transforms it into visual art with 
 - **Dynamic Gallery**: Browse through your creations and replay the audio that shaped each piece
 - **Personalized Voice Calibration**: Customize the app to your vocal range and environment
 
+## 🚀 Features & Screenshots
+
+### Voice Drawing Canvas
+![Canvas View](https://raw.githubusercontent.com/HIROMU522/EchoArt/main/Resources/canvas.png)
+The main canvas where voice is transformed into visual art in real-time.
+
+### Dynamic Gallery
+![Gallery View](https://raw.githubusercontent.com/HIROMU522/EchoArt/main/Resources/gallery.png)
+Browse through created artworks with an immersive 3D carousel interface.
+
+### Voice Personalization
+![Personalization View](https://raw.githubusercontent.com/HIROMU522/EchoArt/main/Resources/personalization.png)
+Customize the app to your unique vocal characteristics and environment.
+
 ## 🧩 Architecture & Technical Details
 
 EchoArt employs an advanced signal processing pipeline to transform voice input into visual art in real-time. The diagram below illustrates the core technical workflow:
 
 ```
-┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
+┌─────────────────┐    ┌────────────────-─┐    ┌─────────────────┐
 │  Audio Capture  │    │ Signal Analysis  │    │ Visual Mapping  │
-│                 │───▶│                 │───▶│                 │
+│                 │───▶│                  │───▶│                 │
 │ - AVFoundation  │    │ - FFT Processing │    │ - Pitch to Color│
-│ - Buffer Size:  │    │ - Hann Windowing │    │ - Volume to    │
+│ - Buffer Size:  │    │ - Hann Windowing │    │ - Volume to     │
 │   1024 samples  │    │ - Peak Detection │    │   Width & X-Pos │
-└─────────────────┘    └─────────────────┘    └─────────────────┘
+└─────────────────┘    └─────────────────-┘    └─────────────────┘
                                                        │
                                                        ▼
 ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
@@ -146,20 +160,6 @@ EchoArt/
    - **SwiftData Integration**: Combined audio data is stored alongside vector drawing data in a unified SwiftData model, ensuring artwork and audio remain paired throughout the app lifecycle
 
    [FFT Implementation Equations](https://github.com/HIROMU522/EchoArt/blob/main/Resources/audio_sync_diagram.md)
-
-## 🚀 Features & Screenshots
-
-### Voice Drawing Canvas
-![Canvas View](https://raw.githubusercontent.com/HIROMU522/EchoArt/main/Resources/canvas.png)
-The main canvas where voice is transformed into visual art in real-time.
-
-### Dynamic Gallery
-![Gallery View](https://raw.githubusercontent.com/HIROMU522/EchoArt/main/Resources/gallery.png)
-Browse through created artworks with an immersive 3D carousel interface.
-
-### Voice Personalization
-![Personalization View](https://raw.githubusercontent.com/HIROMU522/EchoArt/main/Resources/personalization.png)
-Customize the app to your unique vocal characteristics and environment.
 
 ## 💡 Inspiration & Purpose
 
