@@ -2,7 +2,7 @@
 
 > *「あなたが「あー」と発声すると、声がペンとなって芸術が生まれる」*
 
-EchoArtは、声を用いてデジタルアートを創造する革新的なiOSアプリケーションです。リアルタイムで声のピッチ、音量、持続時間を分析し、声だけで美しく動的な絵を描くことを可能にします。
+EchoArtは、声を用いてデジタルアートを創造するiOSアプリケーションです。リアルタイムで声のピッチ、音量、持続時間を分析し、声だけで美しく動的な絵を描くことを可能にします。
 
 [![Swift Version](https://img.shields.io/badge/Swift-5.9-orange.svg)](https://swift.org/)
 [![SwiftUI](https://img.shields.io/badge/SwiftUI-iOS_18-blue.svg)](https://developer.apple.com/xcode/swiftui/)
