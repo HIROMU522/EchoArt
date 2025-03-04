@@ -8,7 +8,7 @@ EchoArtは、声を用いてデジタルアートを創造する革新的なiOS�
 [![SwiftUI](https://img.shields.io/badge/SwiftUI-iOS_18-blue.svg)](https://developer.apple.com/xcode/swiftui/)
 [![Swift Student Challenge](https://img.shields.io/badge/Swift_Student_Challenge-2025-red.svg)](https://developer.apple.com/swift-student-challenge/)
 
-[English](../README.md) | 日本語
+[English](README.md) | 日本語
 
 ![EchoArt デモ](images/demo.png)
 
