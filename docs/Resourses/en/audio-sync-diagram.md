@@ -20,9 +20,9 @@
 │ Drawing Data    │                             │ Swift Data Storage  │
 │                 │                             │                     │
 │ Line Segments   │                             │ Model:              │
-│ Color Values    │─────────────────────────────▶ Artwork            │
-│ Thickness Data  │                             │ - imageData        │
-└─────────────────┘                             │ - audioData        │
+│ Color Values    │─────────────────────────────▶ Artwork             │
+│ Thickness Data  │                             │ - imageData         │
+└─────────────────┘                             │ - audioData         │
                                                 └─────────────────────┘
                                                             │
                                                ┌────────────▼────────────┐
