@@ -8,9 +8,9 @@ EchoArtは、声を用いてデジタルアートを創造する革新的なiOS�
 [![SwiftUI](https://img.shields.io/badge/SwiftUI-iOS_18-blue.svg)](https://developer.apple.com/xcode/swiftui/)
 [![Swift Student Challenge](https://img.shields.io/badge/Swift_Student_Challenge-2025-red.svg)](https://developer.apple.com/swift-student-challenge/)
 
-[English](README.md) | 日本語
+[English](../README.md) | 日本語
 
-![EchoArt デモ](https://raw.githubusercontent.com/HIROMU522/EchoArt/main/Resources/demo.png)
+![EchoArt デモ](images/demo.png)
 
 ## 📱 アプリの概要
 
@@ -27,15 +27,15 @@ EchoArtはリアルタイムで声を分析し、以下の特徴を活かして�
 ## 🚀 特徴とスクリーンショット
 
 ### 声描画キャンバス
-![キャンバスビュー](https://raw.githubusercontent.com/HIROMU522/EchoArt/main/Resources/canvas.png)
+![キャンバスビュー](images/canvas.png)
 声がリアルタイムで視覚的アートに変換されるメインキャンバス。
 
 ### ダイナミックギャラリー
-![ギャラリービュー](https://raw.githubusercontent.com/HIROMU522/EchoArt/main/Resources/gallery.png)
+![ギャラリービュー](images/gallery.png)
 没入感のある3Dカルーセルインターフェースで作成されたアートワークを閲覧。
 
 ### 声のパーソナライゼーション
-![パーソナライゼーションビュー](https://raw.githubusercontent.com/HIROMU522/EchoArt/main/Resources/personalization.png)
+![パーソナライゼーションビュー](images/personalization.png)
 アプリをあなた独自の声の特性と環境に合わせてカスタマイズ。
 
 ## 🧩 アーキテクチャと技術詳細
@@ -110,7 +110,7 @@ EchoArtは、音声入力をリアルタイムで視覚的アートに変換す�
    
    - **メモリ管理**: リアルタイム処理中の最適なパフォーマンスを確保し、不要なメモリコピーを避けるためにSwiftのポインタベースのAPIを使用。
 
-   ![FFT実装方程式](https://raw.githubusercontent.com/HIROMU522/EchoArt/main/Resources/fft_equations.png)
+   ![FFT実装方程式](images/fft_equations.png)
 
 3. **音声-視覚マッピング**:
 
@@ -124,7 +124,7 @@ EchoArtは、音声入力をリアルタイムで視覚的アートに変換す�
    
    - **位置マッピング**: キャンバス上のY位置はピッチによって決定され、X位置は音量の影響を受け、ユーザーが声と結果として生じる視覚効果の関係を直感的に理解できる自然な2D表現空間を作成します。
 
-   ![音声-視覚マッピング方程式](https://raw.githubusercontent.com/HIROMU522/EchoArt/main/Resources/mapping_equations.png)
+   ![音声-視覚マッピング方程式](images/mapping_equations.png)
 
 4. **音声-視覚同期**:
 
@@ -140,7 +140,7 @@ EchoArtは、音声入力をリアルタイムで視覚的アートに変換す�
    
    - **SwiftData統合**: 結合されたオーディオデータはベクトル描画データとともに統一されたSwiftDataモデルに保存され、アートワークとオーディオがアプリのライフサイクル全体を通じてペアで保持されることを保証します
 
-   ![音声同期図](https://raw.githubusercontent.com/HIROMU522/EchoArt/main/Resources/audio_sync_diagram.png)
+   ![音声同期図](images/audio_sync_diagram.png)
 
 3. **パーソナライゼーションシステム**:
 
@@ -159,7 +159,7 @@ EchoArtは、音声入力をリアルタイムで視覚的アートに変換す�
    
    - **永続性**: キャリブレーション値はUserDefaultsに保存され、アプリが各ユーザーの声のプロファイルをセッション間で記憶できるようにします
 
-   ![パーソナライゼーションアルゴリズム](https://raw.githubusercontent.com/HIROMU522/EchoArt/main/Resources/personalization_algorithms.png)
+   ![パーソナライゼーションアルゴリズム](images/personalization_algorithms.png)
 
 ## 💡 インスピレーションと目的
 
@@ -189,4 +189,3 @@ Copyright © 2025 Hiromu Tanaka. All rights reserved.
 - Email: [your-email@example.com](mailto:your-email@example.com)
 - GitHub: [@HIROMU522](https://github.com/HIROMU522)
 - LinkedIn: [Your LinkedIn Profile](https://linkedin.com/in/yourprofile)
-
