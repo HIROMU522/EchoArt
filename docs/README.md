@@ -10,7 +10,7 @@ EchoArt is an innovative iOS application that transforms voice into digital art,
 
 English | [日本語](README-ja.md)
 
-![EchoArt Demo](docs/images/demo.png)
+![EchoArt Demo](docs/img/demo.png)
 
 ## 📱 App Overview
 
@@ -27,15 +27,15 @@ EchoArt analyzes your voice in real-time and transforms it into visual art with 
 ## 🚀 Features & Screenshots
 
 ### Voice Drawing Canvas
-![Canvas View](docs/images/canvas.png)
+![Canvas View](docs/img/canvas.png)
 The main canvas where voice is transformed into visual art in real-time.
 
 ### Dynamic Gallery
-![Gallery View](docs/images/gallery.png)
+![Gallery View](docs/img/gallery.png)
 Browse through created artworks with an immersive 3D carousel interface.
 
 ### Voice Personalization
-![Personalization View](docs/images/personalization.png)
+![Personalization View](docs/img/personalization.png)
 Customize the app to your unique vocal characteristics and environment.
 
 ## 🧩 Architecture & Technical Details
@@ -110,7 +110,7 @@ EchoArt/
    
    - **Memory Management**: Using Swift's pointer-based APIs for buffer handling to ensure optimal performance during real-time processing, avoiding unnecessary memory copies.
 
-   ![FFT Implementation Equations](docs/images/fft_equations.png)
+   [View FFT Implementation Details](docs/en/equations-fft.md)
 
 3. **Audio-Visual Mapping**:
 
